@@ -1,4 +1,4 @@
-FROM casjaysdev/alpine:latest as build
+FROM casjaysdevdocker/alpine:latest as build
 
 ENV PYTHON_VERSION 3.11.0a5
 # if this is called "PIP_VERSION", pip explodes with "ValueError: invalid truth value '<VERSION>'"
